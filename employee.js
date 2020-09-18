@@ -47,7 +47,7 @@ var drawTable = function (employees) {
             return employee.phone
         }))
 }
-var employeePromise = d3.json("../employee.json")
+var employeePromise = d3.json("../EmployeeJSONdata/employee.json")
 
 var succFCN = function (employees) {
     console.log("employees", employees)
